@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Utility Hub — Free Browser-Based Online Tools</title>
+    <meta
+      name="description"
+      content="Free, privacy-first online tools for PDF editing, Word and PDF conversion, AI background removal, image compression, resizing, QR codes, and JSON."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#173F35" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/og-cover.jpg" />
+    <meta property="og:site_name" content="AI Utility Hub" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="AI Utility Hub — Free Browser-Based Online Tools"
+    />
+    <meta
+      property="og:description"
+      content="Free, privacy-first online tools for PDF editing, Word and PDF conversion, AI background removal, image compression, resizing, QR codes, and JSON."
+    />
+    <meta property="og:image" content="/og-cover.jpg" />
+    <meta
+      property="og:image:alt"
+      content="AI Utility Hub — Browser-based image, PDF, developer, and writing tools"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="AI Utility Hub — Free Browser-Based Online Tools"
+    />
+    <meta
+      name="twitter:description"
+      content="Free, privacy-first online tools for PDF editing, Word and PDF conversion, AI background removal, image compression, resizing, QR codes, and JSON."
+    />
+    <meta name="twitter:image" content="/og-cover.jpg" />
+    <script id="seo-json-ld" type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "AI Utility Hub",
+        "alternateName": "Useful Tools. Simpler Work.",
+        "description": "Free browser-based utilities for image optimization, AI background editing, PDF workflows, Word and PDF conversion, JSON formatting, QR generation, and writing."
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('ai-utility-hub-theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

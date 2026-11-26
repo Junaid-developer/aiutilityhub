@@ -1,0 +1,6 @@
+{
+  "name": "AI Utility Hub",
+  "description": "Useful Tools. Simpler Work. Discover simple, powerful and free online tools designed to make your everyday digital tasks easier.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
