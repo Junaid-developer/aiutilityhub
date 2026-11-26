@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Once your production domain is finalized, uncomment and set your absolute sitemap URL:
+# Sitemap: https://YOUR-DOMAIN/sitemap.xml
