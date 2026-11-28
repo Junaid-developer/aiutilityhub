@@ -7,7 +7,7 @@ import {
   ALL_INDEXABLE_PATHS,
   getSeoMetadataForRoute,
   normalizeSiteOrigin,
-} from './src/utils/seo';
+} from './utils/seo';
 
 function escapeHtml(value: string): string {
   return value
